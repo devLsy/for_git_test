@@ -22,7 +22,7 @@ public class CommonController {
     @GetMapping(value = "list")
     public Object list() {
         commonInfoService.selectCommonList();
-        log.info("굿");
+        log.info("이지 테스트");
         return "success";
     }
 }
