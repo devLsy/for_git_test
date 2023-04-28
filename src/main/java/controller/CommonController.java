@@ -23,6 +23,7 @@ public class CommonController {
     public Object list() {
         commonInfoService.selectCommonList();
         log.info("이지 테스트");
+        log.info("어디");
         return "success";
     }
 }
